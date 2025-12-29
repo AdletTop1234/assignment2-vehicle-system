@@ -1,6 +1,6 @@
 public class Truck extends Vehicle{
-    double capacity;
-    int numAxles;
+    private double capacity;
+    private int numAxles;
 
     public Truck(String brand,int year,double capacity,int numAxles){
         super(brand,year);
@@ -20,6 +20,6 @@ public class Truck extends Vehicle{
 
     void displayTruckInfo() {
         displayInfo();
-        System.out.println("Capacity :"+capacity+"Number of Axles :"+numAxles);
+        System.out.println(" Capacity :"+capacity+", Number of Axles :"+numAxles);
     }
 }

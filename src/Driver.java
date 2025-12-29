@@ -7,7 +7,7 @@ public class Driver {
         this.licenseNumber = licenseNumber;
     }
 
-    void DisplayDriverInfo(){
+    void displayDriverInfo(){
         System.out.println(" Name of the driver :"+name+", License number :"+licenseNumber);
     }
 }
